@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D11C10C20E09C64006C07E2 /* JLImgDownIoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D11C10B20E09C64006C07E2 /* JLImgDownIoad.m */; };
+		3D60965C20CE5CDF00F33190 /* testtableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60965B20CE5CDF00F33190 /* testtableViewController.m */; };
+		3D60966020CE5D7700F33190 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60965E20CE5D7700F33190 /* TestTableViewCell.m */; };
+		3D60966120CE5D7700F33190 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D60965F20CE5D7700F33190 /* TestTableViewCell.xib */; };
+		3D6A049320C901F4001F6C99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A049220C901F4001F6C99 /* AppDelegate.m */; };
+		3D6A049620C901F4001F6C99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A049520C901F4001F6C99 /* ViewController.m */; };
+		3D6A049920C901F4001F6C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A049720C901F4001F6C99 /* Main.storyboard */; };
+		3D6A049B20C901F4001F6C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A049A20C901F4001F6C99 /* Assets.xcassets */; };
+		3D6A049E20C901F4001F6C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A049C20C901F4001F6C99 /* LaunchScreen.storyboard */; };
+		3D6A04A120C901F4001F6C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A04A020C901F4001F6C99 /* main.m */; };
+		3D751625212C1B3C00168876 /* JLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D751621212C1B3C00168876 /* JLPhotoBrowser.m */; };
+		3D751626212C1B3C00168876 /* JLPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D751624212C1B3C00168876 /* JLPhotoBrowserView.m */; };
+		3D765C2920CA36FC00A01893 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D765C2820CA36FC00A01893 /* placeholder.png */; };
+		3DD14B4E20DCE49000DB5805 /* UIImageView+JLloadimg.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD14B4D20DCE49000DB5805 /* UIImageView+JLloadimg.m */; };
+		3DD14B5020DCED6500DB5805 /* 12345.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD14B4F20DCED6500DB5805 /* 12345.png */; };
+		3DD14B5320DCEE8A00DB5805 /* JLImgCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD14B5220DCEE8A00DB5805 /* JLImgCache.m */; };
+		ABA082D65CD9F433981B39CE /* Pods_JLPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFE9CD4C09D75CA85C9AC33 /* Pods_JLPhotoBrowser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BFE9CD4C09D75CA85C9AC33 /* Pods_JLPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D11C10A20E09C64006C07E2 /* JLImgDownIoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLImgDownIoad.h; sourceTree = "<group>"; };
+		3D11C10B20E09C64006C07E2 /* JLImgDownIoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLImgDownIoad.m; sourceTree = "<group>"; };
+		3D60965A20CE5CDF00F33190 /* testtableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testtableViewController.h; sourceTree = "<group>"; };
+		3D60965B20CE5CDF00F33190 /* testtableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testtableViewController.m; sourceTree = "<group>"; };
+		3D60965D20CE5D7700F33190 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		3D60965E20CE5D7700F33190 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		3D60965F20CE5D7700F33190 /* TestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		3D6A048E20C901F4001F6C99 /* JLPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6A049120C901F4001F6C99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D6A049220C901F4001F6C99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D6A049420C901F4001F6C99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D6A049520C901F4001F6C99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D6A049820C901F4001F6C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D6A049A20C901F4001F6C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D6A049D20C901F4001F6C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D6A049F20C901F4001F6C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6A04A020C901F4001F6C99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D751621212C1B3C00168876 /* JLPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPhotoBrowser.m; sourceTree = "<group>"; };
+		3D751622212C1B3C00168876 /* JLPhotoBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPhotoBrowserView.h; sourceTree = "<group>"; };
+		3D751623212C1B3C00168876 /* JLPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPhotoBrowser.h; sourceTree = "<group>"; };
+		3D751624212C1B3C00168876 /* JLPhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPhotoBrowserView.m; sourceTree = "<group>"; };
+		3D765C2820CA36FC00A01893 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		3DD14B4C20DCE49000DB5805 /* UIImageView+JLloadimg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JLloadimg.h"; sourceTree = "<group>"; };
+		3DD14B4D20DCE49000DB5805 /* UIImageView+JLloadimg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JLloadimg.m"; sourceTree = "<group>"; };
+		3DD14B4F20DCED6500DB5805 /* 12345.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12345.png; sourceTree = "<group>"; };
+		3DD14B5120DCEE8A00DB5805 /* JLImgCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLImgCache.h; sourceTree = "<group>"; };
+		3DD14B5220DCEE8A00DB5805 /* JLImgCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLImgCache.m; sourceTree = "<group>"; };
+		599BB286811BC32D20EE2E35 /* Pods-JLPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLPhotoBrowser/Pods-JLPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		C2A59CF0B795415D43D468B6 /* Pods-JLPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLPhotoBrowser/Pods-JLPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D6A048B20C901F4001F6C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA082D65CD9F433981B39CE /* Pods_JLPhotoBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A96615C1B1491A8623DAF7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BFE9CD4C09D75CA85C9AC33 /* Pods_JLPhotoBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D6A048520C901F4001F6C99 = {
+			isa = PBXGroup;
+			children = (
+				3D6A049020C901F4001F6C99 /* JLPhotoBrowser */,
+				3D6A048F20C901F4001F6C99 /* Products */,
+				5AD6F7DD4F3CC906E8335CDB /* Pods */,
+				1A96615C1B1491A8623DAF7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D6A048F20C901F4001F6C99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A048E20C901F4001F6C99 /* JLPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D6A049020C901F4001F6C99 /* JLPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				3D751620212C1B3C00168876 /* class */,
+				3DD14B4B20DCE44200DB5805 /* down */,
+				3D6A049120C901F4001F6C99 /* AppDelegate.h */,
+				3D6A049220C901F4001F6C99 /* AppDelegate.m */,
+				3D765C2820CA36FC00A01893 /* placeholder.png */,
+				3DD14B4F20DCED6500DB5805 /* 12345.png */,
+				3D6A049420C901F4001F6C99 /* ViewController.h */,
+				3D6A049520C901F4001F6C99 /* ViewController.m */,
+				3D6A049720C901F4001F6C99 /* Main.storyboard */,
+				3D6A049A20C901F4001F6C99 /* Assets.xcassets */,
+				3D6A049C20C901F4001F6C99 /* LaunchScreen.storyboard */,
+				3D6A049F20C901F4001F6C99 /* Info.plist */,
+				3D6A04A020C901F4001F6C99 /* main.m */,
+				3D60965A20CE5CDF00F33190 /* testtableViewController.h */,
+				3D60965B20CE5CDF00F33190 /* testtableViewController.m */,
+				3D60965D20CE5D7700F33190 /* TestTableViewCell.h */,
+				3D60965E20CE5D7700F33190 /* TestTableViewCell.m */,
+				3D60965F20CE5D7700F33190 /* TestTableViewCell.xib */,
+			);
+			path = JLPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		3D751620212C1B3C00168876 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				3D751623212C1B3C00168876 /* JLPhotoBrowser.h */,
+				3D751621212C1B3C00168876 /* JLPhotoBrowser.m */,
+				3D751622212C1B3C00168876 /* JLPhotoBrowserView.h */,
+				3D751624212C1B3C00168876 /* JLPhotoBrowserView.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		3DD14B4B20DCE44200DB5805 /* down */ = {
+			isa = PBXGroup;
+			children = (
+				3DD14B4C20DCE49000DB5805 /* UIImageView+JLloadimg.h */,
+				3DD14B4D20DCE49000DB5805 /* UIImageView+JLloadimg.m */,
+				3DD14B5120DCEE8A00DB5805 /* JLImgCache.h */,
+				3DD14B5220DCEE8A00DB5805 /* JLImgCache.m */,
+				3D11C10A20E09C64006C07E2 /* JLImgDownIoad.h */,
+				3D11C10B20E09C64006C07E2 /* JLImgDownIoad.m */,
+			);
+			path = down;
+			sourceTree = "<group>";
+		};
+		5AD6F7DD4F3CC906E8335CDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2A59CF0B795415D43D468B6 /* Pods-JLPhotoBrowser.debug.xcconfig */,
+				599BB286811BC32D20EE2E35 /* Pods-JLPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D6A048D20C901F4001F6C99 /* JLPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6A04A420C901F4001F6C99 /* Build configuration list for PBXNativeTarget "JLPhotoBrowser" */;
+			buildPhases = (
+				477831987292EF172ED769E3 /* [CP] Check Pods Manifest.lock */,
+				3D6A048A20C901F4001F6C99 /* Sources */,
+				3D6A048B20C901F4001F6C99 /* Frameworks */,
+				3D6A048C20C901F4001F6C99 /* Resources */,
+				BB86E965C66EA6D423CF634B /* [CP] Embed Pods Frameworks */,
+				A8FA18661DDB9C1877767263 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLPhotoBrowser;
+			productName = JLPhotoBrowser;
+			productReference = 3D6A048E20C901F4001F6C99 /* JLPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D6A048620C901F4001F6C99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = WZC;
+				TargetAttributes = {
+					3D6A048D20C901F4001F6C99 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D6A048920C901F4001F6C99 /* Build configuration list for PBXProject "JLPhotoBrowser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D6A048520C901F4001F6C99;
+			productRefGroup = 3D6A048F20C901F4001F6C99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D6A048D20C901F4001F6C99 /* JLPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D6A048C20C901F4001F6C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6A049E20C901F4001F6C99 /* LaunchScreen.storyboard in Resources */,
+				3DD14B5020DCED6500DB5805 /* 12345.png in Resources */,
+				3D6A049B20C901F4001F6C99 /* Assets.xcassets in Resources */,
+				3D765C2920CA36FC00A01893 /* placeholder.png in Resources */,
+				3D60966120CE5D7700F33190 /* TestTableViewCell.xib in Resources */,
+				3D6A049920C901F4001F6C99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		477831987292EF172ED769E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JLPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8FA18661DDB9C1877767263 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLPhotoBrowser/Pods-JLPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB86E965C66EA6D423CF634B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JLPhotoBrowser/Pods-JLPhotoBrowser-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLPhotoBrowser/Pods-JLPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D6A048A20C901F4001F6C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D60966020CE5D7700F33190 /* TestTableViewCell.m in Sources */,
+				3DD14B5320DCEE8A00DB5805 /* JLImgCache.m in Sources */,
+				3D6A049620C901F4001F6C99 /* ViewController.m in Sources */,
+				3D6A04A120C901F4001F6C99 /* main.m in Sources */,
+				3DD14B4E20DCE49000DB5805 /* UIImageView+JLloadimg.m in Sources */,
+				3D6A049320C901F4001F6C99 /* AppDelegate.m in Sources */,
+				3D11C10C20E09C64006C07E2 /* JLImgDownIoad.m in Sources */,
+				3D60965C20CE5CDF00F33190 /* testtableViewController.m in Sources */,
+				3D751626212C1B3C00168876 /* JLPhotoBrowserView.m in Sources */,
+				3D751625212C1B3C00168876 /* JLPhotoBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D6A049720C901F4001F6C99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6A049820C901F4001F6C99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D6A049C20C901F4001F6C99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6A049D20C901F4001F6C99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D6A04A220C901F4001F6C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D6A04A320C901F4001F6C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D6A04A520C901F4001F6C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A59CF0B795415D43D468B6 /* Pods-JLPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QW8QC9323;
+				INFOPLIST_FILE = JLPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.JLPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D6A04A620C901F4001F6C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599BB286811BC32D20EE2E35 /* Pods-JLPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QW8QC9323;
+				INFOPLIST_FILE = JLPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.JLPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D6A048920C901F4001F6C99 /* Build configuration list for PBXProject "JLPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6A04A220C901F4001F6C99 /* Debug */,
+				3D6A04A320C901F4001F6C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6A04A420C901F4001F6C99 /* Build configuration list for PBXNativeTarget "JLPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6A04A520C901F4001F6C99 /* Debug */,
+				3D6A04A620C901F4001F6C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D6A048620C901F4001F6C99 /* Project object */;
+}
