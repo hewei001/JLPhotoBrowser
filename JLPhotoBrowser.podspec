@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "JLPhotoBrowser"
   s.version      = "1.0.0"
   s.summary      = "JLPhotoBrowser"
-
+  s.frameworks = "Foundation", "UIKit","UIKit/UIKit.h"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -91,7 +91,7 @@ s.homepage     = 'https://github.com/hewei001/JLPhotoBrowser'
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  ="JLPhotoBrowser/class/*.{h,m}"
+  s.source_files  ="JLPhotoBrowser/down/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
