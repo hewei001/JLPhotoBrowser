@@ -23,7 +23,7 @@ s.homepage     = 'https://github.com/hewei001/JLPhotoBrowser'
 
   s.author             = { "wang" => "729901489@qq.com" }
   s.source       = { :git => 'https://github.com/hewei001/JLPhotoBrowser.git', :tag => "#{s.version}" }
-  s.source_files  ="JLPhotoBrowser" "JLPhotoBrowser/down/*.{h,m}"
+  s.source_files  ="JLPhotoBrowser" "JLPhotoBrowser/class/*.{h,m}"
   s.requires_arc = true
 
 end
