@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D11C10C20E09C64006C07E2 /* JLImgDownIoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D11C10B20E09C64006C07E2 /* JLImgDownIoad.m */; };
 		3D60965C20CE5CDF00F33190 /* testtableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60965B20CE5CDF00F33190 /* testtableViewController.m */; };
 		3D60966020CE5D7700F33190 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60965E20CE5D7700F33190 /* TestTableViewCell.m */; };
 		3D60966120CE5D7700F33190 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D60965F20CE5D7700F33190 /* TestTableViewCell.xib */; };
@@ -20,16 +19,12 @@
 		3D751625212C1B3C00168876 /* JLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D751621212C1B3C00168876 /* JLPhotoBrowser.m */; };
 		3D751626212C1B3C00168876 /* JLPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D751624212C1B3C00168876 /* JLPhotoBrowserView.m */; };
 		3D765C2920CA36FC00A01893 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D765C2820CA36FC00A01893 /* placeholder.png */; };
-		3DD14B4E20DCE49000DB5805 /* UIImageView+JLloadimg.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD14B4D20DCE49000DB5805 /* UIImageView+JLloadimg.m */; };
 		3DD14B5020DCED6500DB5805 /* 12345.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD14B4F20DCED6500DB5805 /* 12345.png */; };
-		3DD14B5320DCEE8A00DB5805 /* JLImgCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD14B5220DCEE8A00DB5805 /* JLImgCache.m */; };
 		ABA082D65CD9F433981B39CE /* Pods_JLPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFE9CD4C09D75CA85C9AC33 /* Pods_JLPhotoBrowser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BFE9CD4C09D75CA85C9AC33 /* Pods_JLPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D11C10A20E09C64006C07E2 /* JLImgDownIoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLImgDownIoad.h; sourceTree = "<group>"; };
-		3D11C10B20E09C64006C07E2 /* JLImgDownIoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLImgDownIoad.m; sourceTree = "<group>"; };
 		3D60965A20CE5CDF00F33190 /* testtableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testtableViewController.h; sourceTree = "<group>"; };
 		3D60965B20CE5CDF00F33190 /* testtableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testtableViewController.m; sourceTree = "<group>"; };
 		3D60965D20CE5D7700F33190 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
@@ -50,11 +45,7 @@
 		3D751623212C1B3C00168876 /* JLPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPhotoBrowser.h; sourceTree = "<group>"; };
 		3D751624212C1B3C00168876 /* JLPhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPhotoBrowserView.m; sourceTree = "<group>"; };
 		3D765C2820CA36FC00A01893 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
-		3DD14B4C20DCE49000DB5805 /* UIImageView+JLloadimg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JLloadimg.h"; sourceTree = "<group>"; };
-		3DD14B4D20DCE49000DB5805 /* UIImageView+JLloadimg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JLloadimg.m"; sourceTree = "<group>"; };
 		3DD14B4F20DCED6500DB5805 /* 12345.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12345.png; sourceTree = "<group>"; };
-		3DD14B5120DCEE8A00DB5805 /* JLImgCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLImgCache.h; sourceTree = "<group>"; };
-		3DD14B5220DCEE8A00DB5805 /* JLImgCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLImgCache.m; sourceTree = "<group>"; };
 		599BB286811BC32D20EE2E35 /* Pods-JLPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLPhotoBrowser/Pods-JLPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		C2A59CF0B795415D43D468B6 /* Pods-JLPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLPhotoBrowser/Pods-JLPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				3D751620212C1B3C00168876 /* JLPhotoBrowser */,
-				3DD14B4B20DCE44200DB5805 /* down */,
 				3D6A049120C901F4001F6C99 /* AppDelegate.h */,
 				3D6A049220C901F4001F6C99 /* AppDelegate.m */,
 				3D765C2820CA36FC00A01893 /* placeholder.png */,
@@ -131,19 +121,6 @@
 				3D751624212C1B3C00168876 /* JLPhotoBrowserView.m */,
 			);
 			path = JLPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		3DD14B4B20DCE44200DB5805 /* down */ = {
-			isa = PBXGroup;
-			children = (
-				3DD14B4C20DCE49000DB5805 /* UIImageView+JLloadimg.h */,
-				3DD14B4D20DCE49000DB5805 /* UIImageView+JLloadimg.m */,
-				3DD14B5120DCEE8A00DB5805 /* JLImgCache.h */,
-				3DD14B5220DCEE8A00DB5805 /* JLImgCache.m */,
-				3D11C10A20E09C64006C07E2 /* JLImgDownIoad.h */,
-				3D11C10B20E09C64006C07E2 /* JLImgDownIoad.m */,
-			);
-			path = down;
 			sourceTree = "<group>";
 		};
 		5AD6F7DD4F3CC906E8335CDB /* Pods */ = {
@@ -291,12 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D60966020CE5D7700F33190 /* TestTableViewCell.m in Sources */,
-				3DD14B5320DCEE8A00DB5805 /* JLImgCache.m in Sources */,
 				3D6A049620C901F4001F6C99 /* ViewController.m in Sources */,
 				3D6A04A120C901F4001F6C99 /* main.m in Sources */,
-				3DD14B4E20DCE49000DB5805 /* UIImageView+JLloadimg.m in Sources */,
 				3D6A049320C901F4001F6C99 /* AppDelegate.m in Sources */,
-				3D11C10C20E09C64006C07E2 /* JLImgDownIoad.m in Sources */,
 				3D60965C20CE5CDF00F33190 /* testtableViewController.m in Sources */,
 				3D751626212C1B3C00168876 /* JLPhotoBrowserView.m in Sources */,
 				3D751625212C1B3C00168876 /* JLPhotoBrowser.m in Sources */,
